@@ -1,6 +1,5 @@
 import React from 'react'
 import './popUpCard.style.css'
-
 const PopUpCard = ({
   disbandClick,
   name,
@@ -33,13 +32,13 @@ const PopUpCard = ({
           <li key={i}>{border}</li>
         ))}
       </ul>
+
       <p className='borders'>LANGUAGES :</p>
       <ul className='lan'>
         {languages.map((border, i) => (
           <li key={i}>{border.name}</li>
         ))}
       </ul>
-      {console.log(languages)}
       <div onClick={disbandClick} className='closeBtn'>
         Close
       </div>
