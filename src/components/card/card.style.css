@@ -1,0 +1,18 @@
+.card {
+  min-width: 180px;
+  background-color: rgb(247, 247, 247);
+  padding: 10px 15px;
+  margin: 10px 15px;
+  width: 30%;
+  cursor: pointer;
+  box-shadow: 1px -2px 20px rgba(71, 71, 71, 0.849);
+  transition: all 0.3s;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 30px rgba(71, 71, 71, 0.336);
+}
+
+.flag {
+  width: 100%;
+}
