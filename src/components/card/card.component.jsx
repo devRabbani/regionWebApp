@@ -1,27 +1,18 @@
 import React from 'react'
 import './card.style.css'
 
-const Card = ({
-  name,
-  capital,
-  region,
-  subregion,
-  population,
-  borders,
-  languages,
-  flag,
-  numericCode,
-  expandClick,
-}) => {
+const Card = ({ name, capital, region, flag, numericCode, expandClick }) => {
   return (
     <div onClick={() => expandClick(numericCode)} className='card'>
-      <h3>{name}</h3>
+      <h3>{name.toUpperCase()}</h3>
       <img className='flag' src={flag} alt={`${name}'s Flag`} />
-      <h4>{capital}</h4>
-      <p>
-        Region :{region} Sub Region: {subregion}
+      <p className='cardCapital'>
+        <span>Capital : </span>
+        {capital}
       </p>
-      <p>{population}</p>
+      <p>
+        <b> Region :</b> {region}
+      </p>
     </div>
   )
 }

@@ -1,0 +1,82 @@
+.popUpCard {
+  min-width: 180px;
+  background-color: rgb(247, 247, 247);
+  padding: 10px 15px;
+  margin: 10px 15px;
+  width: 30%;
+  box-shadow: 1px -2px 20px rgba(71, 71, 71, 0.849);
+  transition: all 0.3s;
+}
+
+.popUpCard .flag {
+  margin: 10px auto;
+}
+
+.closeBtn {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+.capital {
+  font-size: 19px;
+  margin-bottom: 5px;
+  color: #6b6be1;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ul li {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.borders {
+  margin: 7px auto 5px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.bor li {
+  background-color: rgb(119, 46, 214);
+  padding: 4px 7px;
+  border-radius: 10px;
+  min-width: 20px;
+  color: white;
+  margin: 4px 2px;
+}
+
+.lan li {
+  background-color: yellowgreen;
+  padding: 4px 7px;
+  margin: 4px;
+}
+
+.popUpCard .flag {
+  width: 90%;
+}
+
+@media (max-width: 1200px) {
+  .popUpCard {
+    width: 50%;
+  }
+}
+@media (max-width: 650px) {
+  .popUpCard {
+    width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .popUpCard {
+    width: 90%;
+    margin-top: 20px;
+  }
+}

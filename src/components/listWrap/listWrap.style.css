@@ -3,4 +3,31 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: stretch;
+  max-width: 1500px;
+  padding: 0 10px;
+  margin-top: 30px;
+}
+
+.btnReload {
+  background-color: blue;
+  font-size: 14px;
+  padding: 10px 30px;
+  width: fit-content;
+  margin: 20px auto 10px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 2px 3px 7px #8b8a8acc;
+  transition: all 0.4s;
+}
+
+.btnReload:hover {
+  background-color: rgb(1, 1, 187);
+  opacity: 0.8;
+}
+
+h1.loading {
+  margin-top: 30vh;
+  opacity: 0.7;
 }

@@ -8,3 +8,14 @@
 .App {
   text-align: center;
 }
+
+.App h1 {
+  text-transform: uppercase;
+  margin: 30px auto 10px;
+}
+
+hr {
+  width: 40%;
+  color: black;
+  margin: 0 auto 10px;
+}
